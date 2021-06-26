@@ -1,0 +1,21 @@
+subscription updatedAccountPhoto($userAccountId: String!){
+    updatedAccountPhoto(userAccountId: $userAccountId){
+        errors
+        id
+        moderation{
+            approved
+            invalids{
+                general
+                primary
+            }
+            recognized
+        }
+        shouldDestroy
+        urls{
+            blur
+            middle
+            original
+            small
+        }
+    }
+}

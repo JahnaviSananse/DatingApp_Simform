@@ -1,0 +1,16 @@
+subscription updateChat($matchId: String!){
+    updateChat(matchId: $matchId){
+        chatExpired
+        createdAt
+        fileType
+        fileUrl
+        id
+        matchId
+        secondUserReconnect
+        secondUserUnmatch
+        seen
+        seenAt
+        text
+        userAccountId
+    }
+}

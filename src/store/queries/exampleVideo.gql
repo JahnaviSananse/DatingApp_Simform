@@ -1,0 +1,7 @@
+query exampleVideo($name: String){
+  exampleVideo(name: $name){
+    id
+    name
+    url
+  }
+}

@@ -1,0 +1,32 @@
+query chatRoom($chatId: String!){
+    chatRoom(chatId: $chatId){
+        actual
+        blocked
+        chatExpired
+        countMessages
+        createdAt
+        expireAt
+        firstName
+        iRecovered
+        id
+        messages{
+            createdAt
+            fileType
+            fileUrl
+            id
+            matchId
+            seen
+            seenAt
+            text
+            userAccountId
+        }
+        photoUri
+        photoVideoModerationPassed
+        profileId
+        recovered
+        secondUserReconnect
+        secondUserUnmatch
+        userId
+        userRecovered
+    }
+}

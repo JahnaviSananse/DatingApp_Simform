@@ -1,0 +1,6 @@
+mutation userSignIn($input: UserSignInInput!){
+    userSignIn(input: $input){
+        access
+        refresh
+    }
+}

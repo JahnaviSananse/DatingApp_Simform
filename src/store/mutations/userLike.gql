@@ -1,0 +1,6 @@
+mutation userLike($input: LikeInput!){
+    userLike(input: $input){
+        matchId
+        userLike
+    }
+}

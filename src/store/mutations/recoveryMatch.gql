@@ -1,0 +1,24 @@
+mutation recoveryMatch($matchId: String!){
+    recoveryMatch(matchId: $matchId){
+        actual
+        blocked
+        countMessages
+        createdAt
+        expireAt
+        id
+        messages{
+            createdAt
+            fileType
+            fileUrl
+            id
+            matchId
+            seen
+            seenAt
+            text
+            userAccountId
+        }
+        recovered
+        iRecovered
+        userRecovered
+    }
+}

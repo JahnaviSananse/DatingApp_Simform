@@ -1,0 +1,3 @@
+mutation messageSeen($matchId: String!){
+    messageSeen(matchId: $matchId)
+}

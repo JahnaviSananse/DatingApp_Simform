@@ -1,0 +1,16 @@
+image: node
+
+stages:
+   - lint
+
+lint:
+   stage: lint
+   script:
+      # install yarn
+      - npm i yarn
+      # load dependencies
+      - npx yarn
+      # Run eslint
+      - npx yarn lint
+   # only:
+   #    - develop

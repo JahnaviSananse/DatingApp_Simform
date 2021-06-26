@@ -1,0 +1,39 @@
+query survey($name: String!){
+    survey(name: $name){
+        baseModal
+        description
+        feedbacks{
+            description
+            id
+            name
+            title
+        }
+        id
+        modals{
+            attributives{
+                action
+                feedback
+                header
+                id
+                mandatory
+                name
+                navigateTo
+                title
+            }
+            buttons{
+                action
+                feedback
+                id
+                name
+                navigateTo
+                title
+                visible
+            }
+            description
+            id
+            name
+            title
+        }
+        name
+    }
+}

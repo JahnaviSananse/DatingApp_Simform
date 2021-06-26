@@ -1,0 +1,24 @@
+subscription updateMatches($userAccountId: String!){
+    updateMatches(userAccountId: $userAccountId){
+        actual
+        blocked
+        chatId
+        countMessages
+        expireAt
+        haveSuperLike
+        isMyTurn
+        lastMessage
+        matchPhotoModerationPassed
+        matchUser{
+            age
+            firstName
+            id
+            profilePhoto
+            userProfileId
+        }
+        matchVideoModerationPassed
+        recovered
+        sentSuperLike
+        unreadMessagesCount
+    }
+}

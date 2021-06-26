@@ -1,0 +1,22 @@
+mutation deleteMatch($matchId: String!){
+    deleteMatch(matchId: $matchId){
+        actual
+        blocked
+        countMessages
+        createdAt
+        expireAt
+        id
+        messages{
+            createdAt
+            fileType
+            fileUrl
+            id
+            matchId
+            seen
+            seenAt
+            text
+            userAccountId
+        }
+        recovered
+    }
+}

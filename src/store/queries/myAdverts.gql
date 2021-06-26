@@ -1,0 +1,10 @@
+query myAdverts($page: String){
+    myAdverts(page: $page){
+        advertId
+        id
+        message
+        seen
+        seenAt
+        sentAt
+    }
+}

@@ -1,0 +1,20 @@
+overwrite: true
+schema: "https://dating.dev.scrij.com/graphql"
+documents: "src/**/*.gql"
+generates:
+  src/store/generated/fragmentTypes.json:
+    plugins:
+     - fragment-matcher
+  src/store/generated/graphql.tsx:
+    config:
+      noNamespaces: true
+      withHooks: true
+      withComponent: false
+      withHOC: false
+      useIndexSignature: true
+      preResolveTypes: true
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-react-apollo"
+      - "typescript-resolvers"

@@ -1,0 +1,10 @@
+mutation createQueryMessage($input: QueryMessageInput!){
+    createQueryMessage(input: $input){
+        createdAt
+        files
+        id
+        message
+        seenAt
+        sender
+    }
+}

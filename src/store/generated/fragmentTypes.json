@@ -1,0 +1,54 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "UNION",
+        "name": "Value",
+        "possibleTypes": [
+          {
+            "name": "AttitudeToAlcohol"
+          },
+          {
+            "name": "AttitudeToKid"
+          },
+          {
+            "name": "AttitudeToMarijuana"
+          },
+          {
+            "name": "AttitudeToPet"
+          },
+          {
+            "name": "AttitudeToSmoking"
+          },
+          {
+            "name": "EducationLevel"
+          },
+          {
+            "name": "Gender"
+          },
+          {
+            "name": "NativeLanguage"
+          },
+          {
+            "name": "PhysicalActivity"
+          },
+          {
+            "name": "PoliticalIdeology"
+          },
+          {
+            "name": "RelationshipGoal"
+          },
+          {
+            "name": "RelationshipStatus"
+          },
+          {
+            "name": "Religion"
+          },
+          {
+            "name": "Zodiac"
+          }
+        ]
+      }
+    ]
+  }
+}

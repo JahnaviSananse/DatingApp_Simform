@@ -1,0 +1,21 @@
+query myAccountImage{
+    myAccountImage{
+        errors
+        id
+        moderation{
+            approved
+            invalids{
+                general
+                primary
+            }
+            recognized
+        }
+        shouldDestroy
+        urls{
+            blur
+            middle
+            original
+            small
+        }
+    }
+}

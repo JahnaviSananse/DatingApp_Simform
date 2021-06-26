@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "997710410943",
+    "firebase_url": "https://ffwd-281413.firebaseio.com",
+    "project_id": "ffwd-281413",
+    "storage_bucket": "ffwd-281413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997710410943:android:0f5e4f4ffc7f37f9e7020a",
+        "android_client_info": {
+          "package_name": "com.ffwd.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997710410943-7is4kvrcjkrneo84a0mki9jerpu5kehv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6dCY_iJPCqQXvJx5N4C5renlXqTiS6wI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997710410943-7is4kvrcjkrneo84a0mki9jerpu5kehv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "997710410943-0faqbq15dnlllh6pel34m98eakqi5o27.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ffwd"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

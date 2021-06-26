@@ -1,0 +1,9 @@
+query mySuperLikes($page: String){
+    mySuperLikes(page: $page){
+        age
+        firstName
+        id
+        profilePhoto
+        userProfileId
+    }
+}

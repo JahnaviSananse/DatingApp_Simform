@@ -1,0 +1,6 @@
+mutation userSignByFb($input: UserAccountSignFbInput!){
+    userSignByFb(input: $input){
+        access
+        refresh
+    }
+}

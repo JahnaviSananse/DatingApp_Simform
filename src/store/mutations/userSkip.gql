@@ -1,0 +1,3 @@
+mutation userSkip($input: LikeInput!){
+    userSkip(input: $input)
+}

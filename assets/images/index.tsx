@@ -1,0 +1,15 @@
+export {default as FOOTER} from './bottom.png';
+export {default as FFWD_LODO} from './ffwd-dating.png';
+export {default as LOGO} from './logo.png';
+export {default as Vector} from './VectorFill.png';
+export {default as WordMarkBlue} from './WordMarkBlue.png';
+export {default as MarkerTooltip} from './Rectangle.png';
+export {default as FrontPhoto} from './FrontPhoto.jpg';
+export {default as NavigationFooter} from './navigationFooter.png';
+export {default as chatHeader} from './chatHeader.png';
+export {default as FBButton} from './FBButton.png';
+export {default as FfwdLogo} from './FfwdLogo.png';
+export {default as FfwdHearts} from './FfwdHearts.png';
+export {default as FfwdLogoWithHearts} from './ffwd-logo-with-hearts.png';
+export {default as dropdown} from './dropdown.png';
+export {default as videoIntroScreen} from './videoIntroScreen.png';

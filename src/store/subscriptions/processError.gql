@@ -1,0 +1,3 @@
+subscription processError($userAccountId: String!){
+    processError(userAccountId: $userAccountId)
+}

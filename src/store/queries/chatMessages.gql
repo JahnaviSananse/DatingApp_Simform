@@ -1,0 +1,16 @@
+query chatMessages($page: String, $matchId: String!){
+    chatMessages(page: $page, matchId: $matchId){
+        countMessages
+        messages{
+            createdAt
+            fileType
+            fileUrl
+            id
+            matchId
+            seen
+            seenAt
+            text
+            userAccountId
+        }
+    }
+}

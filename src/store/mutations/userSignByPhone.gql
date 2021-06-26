@@ -1,0 +1,3 @@
+mutation userSignByPhone($input: UserSignByPhoneInput!){
+    userSignByPhone(input: $input)
+}

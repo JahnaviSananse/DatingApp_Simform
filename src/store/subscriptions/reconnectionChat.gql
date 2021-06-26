@@ -1,0 +1,16 @@
+subscription reconnectionChat($matchId: String!){
+    reconnectionChat(matchId: $matchId){
+        chatExpired
+        createdAt
+        fileType
+        fileUrl
+        id
+        matchId
+        secondUserReconnect
+        secondUserUnmatch
+        seen
+        seenAt
+        text
+        userAccountId
+    }
+}

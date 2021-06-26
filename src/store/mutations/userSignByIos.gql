@@ -1,0 +1,6 @@
+mutation userSignByIos($input: UserAccountSignIosInput!){
+    userSignByIos(input: $input){
+        access
+        refresh
+    }
+}

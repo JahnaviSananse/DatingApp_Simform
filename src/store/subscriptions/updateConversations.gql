@@ -1,0 +1,26 @@
+subscription updateConversations($userAccountId: String!){
+    updateConversations(userAccountId: $userAccountId){
+        actual
+        blocked
+        chatId
+        countMessages
+        expireAt
+        haveSuperLike
+        iRecovered
+        isMyTurn
+        lastMessage
+        matchPhotoModerationPassed
+        matchUser{
+            age
+            firstName
+            id
+            profilePhoto
+            userProfileId
+        }
+        matchVideoModerationPassed
+        recovered
+        sentSuperLike
+        unreadMessagesCount
+        userRecovered
+    }
+}

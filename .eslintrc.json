@@ -1,0 +1,76 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "react-native/react-native": true // In order to whitelist all browser-like globals
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
+    "prettier/react",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "ignorePatterns": ["src/store/generated/*.tsx"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true // Allows for the parsing of JSX
+    },
+    "ecmaVersion": 2018, // Allows for the parsing of modern ECMAScript features
+    "sourceType": "module" // Allows for the use of imports
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "react-hooks",
+    "react-native",
+    "sort-keys-fix",
+    "unused-imports"
+  ],
+  "rules": {
+    "import/no-named-as-default": 0,
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/jsx-boolean-value": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": "warn",
+    "@typescript-eslint/no-use-before-define": "error",
+    "react-native/no-unused-styles": "warn",
+    "react-native/no-raw-text": "warn",
+    "react-native/no-single-element-style-arrays": "warn",
+    "react/self-closing-comp": "warn",
+    "react/display-name": "off",
+    "react/jsx-no-bind": "error",
+    "sort-keys-fix/sort-keys-fix": "warn",
+    "sort-imports": [
+      "off",
+      {
+        "ignoreCase": false,
+        "ignoreDeclarationSort": true
+      }
+    ],
+    "react/jsx-curly-brace-presence": "warn",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-explicit-any": "error",
+    "unused-imports/no-unused-imports-ts": "warn"
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // React version. "detect" automatically picks the version you have installed.
+      // You can also use 16.0, 16.3, etc, if you want to override the detected value.
+      // default to latest and warns if missing
+      // It will default to "detect" in the future
+    }
+  }
+}

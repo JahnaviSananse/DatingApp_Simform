@@ -1,0 +1,3 @@
+mutation userUnlike($input: UnlikeInput!){
+    userUnlike(input: $input)
+}

@@ -1,0 +1,41 @@
+query screenQuestions($screenNumber: String!){
+    screenQuestions(screenNumber: $screenNumber){
+        answered{
+            approved
+            errors
+            id
+            invalids
+            question{
+                answerDurations{
+                    full
+                    min
+                }
+                audio{
+                    duration
+                    url
+                }
+                enabled
+                id
+                name
+                topic
+            }
+            recognized
+            screenUrl
+            url
+        }
+        questions{
+            answerDurations{
+                full
+                min
+            }
+            audio{
+                duration
+                url
+            }
+            enabled
+            id
+            name
+            topic
+        }
+    }
+}

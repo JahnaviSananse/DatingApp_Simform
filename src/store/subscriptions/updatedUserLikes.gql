@@ -1,0 +1,14 @@
+subscription updatedUserLikes($userAccountId: String!){
+    updatedUserLikes(userAccountId: $userAccountId){
+        count
+        lastSender{
+            age
+            firstName
+            id
+            profilePhoto
+            userProfileId
+        }
+        photoModerationPassed
+        videoModerationPassed
+    }
+}

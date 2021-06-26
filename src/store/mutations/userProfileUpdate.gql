@@ -1,0 +1,1957 @@
+mutation userProfileUpdate($input: UserProfileInput!){
+    userProfileUpdate(input: $input){
+        attitudeToAlcoholBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    conditions{
+                        checked
+                        conditionId
+                        name
+                        visible
+                    }
+                    id
+                    name
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    conditions{
+                        checked
+                        conditionId
+                        name
+                        visible
+                    }
+                    id
+                    name
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        attitudeToKidsBlock{
+            chosenConditionIds
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                id
+                name
+            }
+            visibility
+        }
+        attitudeToMarijuanaBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        attitudeToPetBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        attitudeToSmokingBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        birthDate
+        educationBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            nameOfSchool
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        genderBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        heightBlock{
+            description
+            title
+            value{
+                heightFt
+                heightIn
+                heightM
+            }
+            visibility
+        }
+        id
+        jobBlock{
+            description
+            title
+            value{
+                jobDescription
+                placeOfWork
+            }
+            visibility
+        }
+        nativeLanguageBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        neighborhoodBlock{
+            description
+            title
+            value{
+                inNeighborhood
+                lat
+                lon
+                neighborhood
+            }
+            visibility
+        }
+        photoModerationPassed
+        physicalActivityBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        placeOfBirthBlock{
+            description
+            title
+            value{
+                placeOfBirth
+            }
+            visibility
+        }
+        politicalIdeologyBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        preferenceLat
+        preferenceLon
+        relationshipGoalBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        relationshipStatusBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        religionBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+        sleep
+        userAccount{
+            appleUserId
+            countLikes
+            countMatches
+            countSuperLikes
+            dropAfter
+            email
+            emailConfirmed
+            enabled
+            fbId
+            fbToken
+            firstName
+            id
+            image{
+                errors
+                id
+                moderation{
+                    approved
+                    invalids{
+                        general
+                        primary
+                    }
+                    recognized
+                }
+                shouldDestroy
+                urls{
+                    blur
+                    middle
+                    original
+                    small
+                }
+            }
+            newAdverts
+            phone
+            photoModerationPassed
+            premium
+            premiumExpireAt
+            profileFilled
+            profileImage{
+                errors
+                id
+                moderation{
+                    approved
+                    recognized
+                }
+                shouldDestroy
+                urls{
+                    blur
+                    middle
+                    original
+                    small
+                }
+            }
+            pushExpiringConversation
+            pushExpiringMessages
+            pushNewLike
+            pushNewMatch
+            pushNewMessage
+            pushNewSuperLike
+            userQueries{
+                attributive
+                id
+                queryMessages{
+                    createdAt
+                    files
+                    id
+                    message
+                    seenAt
+                    sender
+                }
+            }
+            videoFilled
+            videoModerationPassed
+            voximplantId
+            voximplantName
+        }
+        userAccountId
+        videoModerationPassed
+        zodiacBlock{
+            description
+            list{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            title
+            value{
+                ... on AttitudeToAlcohol {
+                    id
+                    name
+                }
+                ... on AttitudeToKid {
+                    id
+                    name
+                    conditions {
+                        conditionId
+                        name
+                        visible
+                        checked
+                    }
+                }
+                ... on AttitudeToMarijuana {
+                    id
+                    name
+                }
+                ... on AttitudeToPet {
+                    id
+                    name
+                }
+                ... on AttitudeToSmoking {
+                    id
+                    name
+                }
+                ... on EducationLevel {
+                    id
+                    name
+                }
+                ... on Gender {
+                    id
+                    name
+                    shortName
+                }
+                ... on NativeLanguage {
+                    id
+                    name
+                }
+                ... on PhysicalActivity {
+                    id
+                    name
+                }
+                ... on PoliticalIdeology {
+                    id
+                    name
+                }
+                ... on RelationshipGoal {
+                    id
+                    name
+                }
+                ... on RelationshipStatus {
+                    id
+                    name
+                }
+                ... on Religion {
+                    id
+                    name
+                }
+                ... on Zodiac {
+                    id
+                    name
+                }
+            }
+            visibility
+        }
+    }
+}

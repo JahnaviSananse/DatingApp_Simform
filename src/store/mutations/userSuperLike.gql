@@ -1,0 +1,6 @@
+mutation userSuperLike($input: LikeInput!){
+    userSuperLike(input: $input){
+        matchId
+        userLike
+    }
+}

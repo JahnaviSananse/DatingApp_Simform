@@ -1,0 +1,14 @@
+query staticPage($id: ID, $name: String){
+    staticPage(id: $id, name: $name){
+        description
+        id
+        imageUrl
+        name
+        options{
+            id
+            name
+            value
+        }
+        text
+    }
+}

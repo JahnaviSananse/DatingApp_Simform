@@ -1,0 +1,3 @@
+mutation createUserQuery($input: UserQueryInput!){
+    createUserQuery(input: $input)
+}
